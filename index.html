@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Radio User Guide · Example recordings</title>
+<style>
+  :root { --navy: #14263F; --ink: #1F2937; --muted: #4B5563; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--ink); background: #F6F7F9; line-height: 1.45; }
+  header { background: var(--navy); color: #fff; padding: 22px 20px 20px; }
+  header .kicker { margin: 0 0 4px; font-size: 12px; font-weight: 600; letter-spacing: 1.4px; text-transform: uppercase; color: #F6C35B; }
+  header h1 { margin: 0; font-size: 28px; line-height: 1.1; }
+  header p { margin: 8px 0 0; color: #D6E2F0; font-size: 16px; }
+  main { max-width: 640px; margin: 0 auto; padding: 18px 16px 8px; display: grid; gap: 16px; }
+  .clip { background: #fff; border-radius: 14px; padding: 16px; border: 1.5px solid var(--edge); }
+  .clip h2 { margin: 0 0 10px; display: flex; align-items: center; gap: 10px; font-size: 21px; color: var(--title); }
+  .num { width: 30px; height: 30px; flex-shrink: 0; border-radius: 50%; background: var(--accent); color: #fff; display: grid; place-items: center; font-size: 17px; }
+  audio { width: 100%; margin: 4px 0 10px; }
+  .clip p { margin: 0 0 6px; font-size: 16px; }
+  .clip p b { color: var(--title); }
+  .hum { --accent: #B45309; --title: #8A3D07; --edge: #F2C9A0; }
+  .double { --accent: #6D28D9; --title: #4C1D95; --edge: #D8CCF5; }
+  footer { max-width: 640px; margin: 0 auto; padding: 8px 16px 28px; font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <p class="kicker">WAERN VHF · Radio User Guide</p>
+  <h1>Example recordings</h1>
+  <p>You can’t hear your own signal. This is what others hear.</p>
+</header>
+<main>
+  <section class="clip hum">
+    <h2><span class="num">1</span>Hum on the signal</h2>
+    <audio controls preload="metadata" src="clips/hum.mp3"></audio>
+    <p><b>Listen for</b> the steady low buzz under the voice. The words are lost in it.</p>
+    <p><b>Cause:</b> a handheld transmitting from its charger, indoors.</p>
+    <p><b>Fix:</b> lift it out of the charger and step outside.</p>
+  </section>
+  <section class="clip double">
+    <h2><span class="num">2</span>Two stations at once</h2>
+    <audio controls preload="metadata" src="clips/two-at-once.mp3"></audio>
+    <p><b>Listen for</b> the warble. Stations answered a call for “any station?” at the same moment, and none of them can be read.</p>
+    <p>This clip is played backwards so no one can be identified. The warble comes through just the same.</p>
+    <p><b>Fix:</b> listen before you transmit. If you hear this, ask them to say again, one at a time.</p>
+  </section>
+</main>
+<footer>
+  Recorded from routine radio scheds and edited so that no caller can be identified. Draft for Training Working Group review, November 2026.
+</footer>
+</body>
+</html>
