@@ -14,6 +14,8 @@ DFES documents were downloaded from the DFES website. Their web addresses are st
 |---|---|---|---|---|---|
 | Radio Communications – Voice Procedures aide-memoire | FESA (now DFES) | Rev 2.0, Dec 2010 | DFES download – address to add | 2026-11-10 | 2, 3: prowords, call signs, phonetic alphabet and figures, signal reports, I SPELL |
 | Tait TM8260 Dual Band Radio aide-memoire | DFES | Oct 2011, revised Jun 2015 | DFES download – address to add | 2026-11-10 | 1: Tait controls and display (F keys since reprogrammed, see below) |
+| SOP 3.2.4 – Incident Communications | DFES | Version 1.8 (Aug 2024; PDF dated Oct 2025) | DFES download – address to add | 2026-11-11 | 2: emergency message (para 11 Message Priorities, example; para 13 AVL Emergency Distress Button) |
+| SOP 3.05.11 – Entrapment and Burnover at Bushfires | DFES | Version 2.3 (Jul 2024; PDF dated Apr 2026) | DFES download – address to add | 2026-11-11 | 2: emergency message content (appliance, name and rank, crew, SITREP, location); AVL button held 4 seconds |
 | Radio – Handheld VHF aide-memoire (Vertex VX-829) | DFES | Nov 2017 | DFES download – address to add | 2026-11-10 | 1: Vertex keys, zones, light |
 | Vertex VX-829 handheld radio aide-memoire | DFES | Jul 2017 | DFES download – address to add | 2026-11-10 | 1: Vertex zones and direct channel entry |
 | Radio and channel guide | DFES | Jul 2017, revised Sep 2017 | DFES download – address to add | 2026-11-10 | 1: WAERN channel ranges |
