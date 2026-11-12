@@ -1,6 +1,6 @@
 # Radio User Guide: sources and references
 
-Where the content of the Radio User Guide (v1.2, November 2026) comes from.
+Where the content of the Radio User Guide (v1.3, November 2026) comes from.
 Sheets: 1 WAERN Radios · 2 Talking on the Radio · 3 Common Radio Issues.
 
 "Edition" is the date or version shown in (or embedded in) the document itself.
