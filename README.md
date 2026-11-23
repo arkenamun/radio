@@ -12,9 +12,11 @@ A three-sheet A4 guide to WAERN radio use, prepared for the Training Working Gro
 |---|---|
 | `brads-radio-user-guide-a4-v1.3.pdf` | The current guide, all three sheets |
 | `brads-common-radio-issues-a4.pdf` | Sheet 3 on its own |
+| `brads-radio-user-guide-a4-v2.0-draft.pdf`, `brads-common-radio-issues-a4-v2.0-draft.pdf` | v2.0 draft: the same content in a new training look (see `DESIGN.md`) |
 | `index.html`, `clips/` | The example recordings page (anonymised clips), published at https://arkenamun.github.io/radio/ |
 | `SOURCES.md` | Where the content comes from: documents, editions, addresses and dates read |
 | `src/` | Source for the sheets and the scripts that build the PDFs |
+| `DESIGN.md` | Design notes for the v2.0 draft |
 
 ## Rebuilding the PDFs
 
@@ -33,12 +35,13 @@ The PDFs and PNG previews land in `src/out/`. Each sheet's fit check is printed;
 - Sheet 3 (`sheets/Main.dc.html`) is edited directly.
 - `build.sh` adds the faint DRAFT watermark; remove that line for a final issue.
 - The version and date are in each sheet's footer ("v1.3 · November 2026").
-- The sheets are also kept as a design canvas on claude.ai, where they were drafted; this folder is the shareable copy.
+- The v2.0 draft is a separate build: `src/radio-user-guide.html` with `src/training.css`, rendered by `python3 src/render.py radio-user-guide.html out.pdf` (run from `src/`). `src/check.py` checks its fit.
+- The v1.3 sheets are also kept as a design canvas on claude.ai, where they were drafted; this folder is the shareable copy.
 
 ## Licences
 
 - **Guide content** (the sheets, PDFs, recordings page text and `SOURCES.md`): [Creative Commons Attribution 4.0](LICENSE-CC-BY-4.0.txt). You may share and adapt it, with credit.
 - **Scripts** in `src/` (`*.py`, `build.sh`): [MIT](LICENSE-MIT.txt).
-- **Barlow fonts** in `src/fonts/`: SIL Open Font License 1.1, see `src/fonts/OFL.txt`.
+- **Fonts** in `src/fonts/`: SIL Open Font License 1.1. Barlow and Barlow Condensed: `src/fonts/OFL.txt`; Source Sans 3: `src/fonts/OFL-SourceSans3.txt`.
 
 DFES and other reference documents are not included; `SOURCES.md` lists them. Check current DFES doctrine before relying on this guide operationally.
